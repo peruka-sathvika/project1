@@ -1,0 +1,40 @@
+#diffimages{
+    border: solid 1px black;
+    height: 180px;
+    display: flex;
+}
+#homeimage{
+    height: 140px;
+    width: 248px;
+}
+#box1,#box2,#box3,#box4{
+    border: solid 1px black;
+    height: 180px;
+    width: 250px;
+}
+#figcap{
+    text-align: center;
+    font-size: 23px;
+    color: rgb(108, 29, 29);
+    text-shadow: 1px 1px 1px rgb(148, 150, 161);
+}
+#titlename{
+    /* border: solid 1px rgb(104, 30, 35); */
+    text-decoration: underline;
+}
+#titname{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: rgb(27, 166, 188);
+}
+#Birthday,#Wedding,#Reception,#Housewarming{
+    border: solid 1px rgb(46, 15, 197) rgb(108, 29, 29);
+    height: 200px;
+color: rgb(52, 12, 48);
+}
+
+#imagescroll{
+    height: 250px;
+    /* width: 300px; */
+}

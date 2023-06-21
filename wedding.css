@@ -1,0 +1,25 @@
+#wedbox1{
+    /* border: solid 1px black; */
+    height: 200px;
+}
+#wedpics{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+#wedlorem{
+    padding-left: 250px;
+    color: aqua;
+}
+#wedright{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+#wedlorem2{
+    padding-left: 25px;
+    color: #277cb5;
+}
+h1{
+    color: rgb(17, 118, 201);
+}

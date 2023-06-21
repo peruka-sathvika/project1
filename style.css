@@ -1,0 +1,60 @@
+body{
+   background-image: url(camera.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+#nav{
+    border: solid 1px rgba(6,6,0.946);
+    height: 50px;
+}
+#name{
+    border: solid 1px rgb(10,10,10);
+    height: 400px;
+}
+#scroll{
+    border: solid 1px rgb(10,10,10);
+    height: 100px;
+}
+#scrolling{
+    color: rgb(55, 23, 65);
+    font-size: 40px;
+    background-color: rgba(191, 107, 107, 0.738);
+    font-family:cursive;
+    text-shadow: 5px 5px 5px rgb(83, 39, 193),10px 10px 10px rgb(38, 43, 46);
+}
+#names{
+    font-family: cursive;
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.483);
+    font-size: 50px;
+    text-align: center;
+    /* line-height: 400px; */
+    padding-top: 0%;
+}
+#nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+#nav ul li{
+    border:solid 1px black ;
+    width: 165px;
+    height: 48px;
+    background-color: rgba(0,0,0,0.483);
+    float: left;
+    text-align: center;
+    line-height: 43px;
+
+}
+#nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(255,255,255,0.799) ;
+}
+#nav ul li ul li{
+    display: none;
+}
+#nav ul li:hover ul li {
+    display: block;
+}
